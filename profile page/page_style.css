@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@400..700&family=Londrina+Outline&family=Mr+Bedfort&display=swap');
+
+body {
+    margin-top: 50px;
+    background-color: rgb(175, 172, 172);
+    font-family: "Edu QLD Beginner", cursive;
+}
+
+div {
+    flex-direction: column;
+    background-color: white;
+    width: 400px;
+    margin:auto;
+    height:500px;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    border-radius: 10px;
+    padding-top:50px;
+    padding-bottom: 50px;
+    
+}
+p { 
+    justify-self: center;
+    align-self: center;
+    margin-top: 0;
+    font-size: 1.5rem;
+    padding-bottom: 0px;
+    color: grey;
+}
+h1 {
+    justify-self: center;
+    align-self: center;
+    color:rgb(55, 55, 55);
+}
+#cross {
+   height: 1rem;
+   width: 1rem;
+   justify-content: flex-end;
+   align-content: flex-start;
+   cursor: pointer;
+   display: flex; 
+   float: right;
+   opacity: 0.5;
+   border: 0px;
+   padding: 0;
+   margin-bottom: 50px;
+   margin-left: 350px;
+}
+
+#foto {
+    justify-self: flex-start;
+    align-self: center;
+    height:200px;
+    width:200px;
+    border-radius: 50%;
+    display: flex;
+    padding-bottom: 20px;
+}
+footer {
+    background-color: rgb(74, 73, 73);
+    font-weight: bold;
+    font-size: 1.5rem;
+    color:white;
+    justify-self: center;
+    align-self: center;
+    border-radius: 2rem;
+    padding:20px;
+    margin-top: 44px;
+    border-bottom: 30px, white;
+    text-decoration: none;
+}
+
+footer:hover {
+    background-color: rgb(122, 121, 121);
+    color:black;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+    color: white;
+    padding:0px;
+    border:0px;
+    display: flex;
+}
+#link {
+    width: 1rem;
+    height: 1rem;
+    justify-content: flex-end;
+    align-content: flex-start;
+    cursor: pointer;
+    display: flex; 
+    float: right;
+    opacity: 0.5;
+    border: 0px;
+    padding: 0;
+    margin-bottom: 50px;
+    margin-left: 350px;
+}
